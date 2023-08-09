@@ -1,0 +1,33 @@
+import React from 'react'
+import Footer from '../../components/footer/Footer'
+import Navbar from '../../components/navbar/Navbar'
+
+const Contact = () => {
+  return (
+    <div className='contact-bgImg-container'>
+      <Navbar/>
+      <div className='contact'>
+        <h2>Contact Me...</h2>
+        <div class="contact__list">
+          <div class="contact__item">
+            <i class="fas fa-envelope"></i> Email
+            <div class="text-secondary">wednesday@nevermoreacademy.edu</div>
+          </div>
+          <div class="contact__item">
+            <i class="fas fa-mobile-alt"></i> Phone
+            <div class="text-secondary">+40 (571) 360-1234</div>
+          </div>
+          <div class="contact__item">
+            <i class="fas fa-map-marker-alt"></i> Address
+            <div class="text-secondary">Strada Zamorei 1, Bușteni 105500, Romania</div>
+          </div>
+        </div>
+        
+      </div>
+
+      <Footer footerPosit={"middle"} />
+    </div>
+  )
+}
+
+export default Contact
